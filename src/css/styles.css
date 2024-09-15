@@ -1,0 +1,114 @@
+body {
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: 0;
+    color: whitesmoke;
+}
+
+ul {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style-type: none;
+}
+
+.navigation, .address-list {
+    display: flex;
+    gap: 40px;
+}
+
+.address {
+    margin-left: auto;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+}
+
+.logo-header {
+    font-family: "Raleway", san-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: white;
+}
+
+.address-link {
+    color: white;
+}
+
+.container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 15px;
+}
+
+.div-header {
+    display: flex;
+    align-items: center;
+    background-color: #0084ff;
+}
+
+.div-hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    gap: 48px;
+}
+
+.section-hero {
+    background-image: linear-gradient(
+        to bottom,
+        rgba(46, 47, 66, 0.5),
+        rgba(45, 47, 66, 0.5)
+    ),
+    url(../img/hero-cranes.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 150px;
+    padding-bottom: 250px;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.h1-hero {
+    font-size: 36px;
+    margin-bottom: 100px;
+}
+
+.h3-hero {
+    font-size: 24px;
+}
+
+.button {
+    margin-top: 100px;
+    color: #FFFFFF;
+    background-color: #0084ff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.button:hover {
+    background-color: #084680;
+    cursor: pointer;
+}
+
+
+
