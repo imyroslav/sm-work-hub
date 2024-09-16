@@ -96,7 +96,7 @@ a {
     font-size: 24px;
 }
 
-.button {
+.link {
     margin-top: 100px;
     color: #FFFFFF;
     background-color: #0084ff;
@@ -105,7 +105,7 @@ a {
     border-radius: 10px;
 }
 
-.button:hover {
+.link:hover {
     background-color: #084680;
     cursor: pointer;
 }
