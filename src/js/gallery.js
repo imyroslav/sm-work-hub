@@ -4,9 +4,9 @@ import "simplelightbox/dist/simple-lightbox.min.css";
 const images = [
     {
 preview:
-'/src/img/img-gallery/preview/preview-object-1.jpg',
+'../img/img-gallery/preview/preview-object-1.jpg',
 original:
-'/src/img/img-gallery/original/original-object-1.jpg',
+'../img/img-gallery/original/original-object-1.jpg',
 description: 'Object 1',
     },
     {
