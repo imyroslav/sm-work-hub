@@ -25,9 +25,9 @@ description: 'Object 3',
     },
     {
 preview:
-'../img/img-gallery/preview/preview-object-4.jpg',
+'./img/img-gallery/preview/preview-object-4.jpg',
 original:
-'../img/img-gallery/original/original-object-4.jpg',
+'./img/img-gallery/original/original-object-4.jpg',
 description: 'Object 4',
     },
     {
