@@ -4,10 +4,10 @@ import "simplelightbox/dist/simple-lightbox.min.css";
 const images = [
     {
 preview:
-"https://github.com/imyroslav/sm-work-hub/blob/main/src/img/img-gallery/preview/preview-object-1.jpg",
+'https://cdn.pixabay.com/photo/2019/05/14/16/43/rchids-4202820__480.jpg',
 original:
-'https://github.com/imyroslav/sm-work-hub/blob/main/src/img/img-gallery/original/original-object-1.jpg',
-description: 'Object 1',
+'https://cdn.pixabay.com/photo/2019/05/14/16/43/rchids-4202820_1280.jpg',
+description: 'Hokkaido Flower',
     },
     {
 preview:
