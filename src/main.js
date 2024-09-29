@@ -4,66 +4,66 @@ import "simplelightbox/dist/simple-lightbox.min.css";
 const images = [
     {
 preview:
-'./img/img-gallery/preview/preview-object-1.jpg',
+'https://aabaugmbh.de/wp-content/uploads/2022/03/img_2476-1-2048x1536.jpg',
 original:
-'./img/img-gallery/original/original-object-1.jpg',
-description: 'Object 1',
+'https://aabaugmbh.de/wp-content/uploads/2022/03/img_2476-1-scaled.jpg',
+description: 'Mannheim Object 4521 image-1',
     },
     {
 preview:
-'./img/img-gallery/preview/preview-object-2.jpg',
+'https://aabaugmbh.de/wp-content/uploads/2022/03/img_2474-2048x1536.jpg',
 original:
-'./img/img-gallery/original/original-object-2.jpg',
-description: 'Object 2',
+'https://aabaugmbh.de/wp-content/uploads/2022/03/img_2474-scaled.jpg',
+description: 'Mannheim Object 4521 image-2',
     },
     {
 preview:
-'./img/img-gallery/preview/preview-object-3.jpg',
+'https://aabaugmbh.de/wp-content/uploads/2022/03/img_2378-1-2048x1536.jpg',
 original:
-'./img/img-gallery/original/original-object-3.jpg',
-description: 'Object 3',
+'https://aabaugmbh.de/wp-content/uploads/2022/03/img_2378-1-scaled.jpg',
+description: 'Mannheim Object 4520 image-1',
     },
     {
 preview:
-'./img/img-gallery/preview/preview-object-4.jpg',
+'https://aabaugmbh.de/wp-content/uploads/2022/03/img_2376-1-2048x1536.jpg',
 original:
-'./img/img-gallery/original/original-object-4.jpg',
-description: 'Object 4',
+'https://aabaugmbh.de/wp-content/uploads/2022/03/img_2376-1-scaled.jpg',
+description: 'Mannheim Object 4520 image-2',
     },
     {
 preview:
-'../img/img-gallery/preview/preview-object-5.jpg',
+'https://aabaugmbh.de/wp-content/uploads/2022/03/img_2383-2048x1536.jpg',
 original:
-'../img/img-gallery/original/original-object-5.jpg',
-description: 'Object 5',
+'https://aabaugmbh.de/wp-content/uploads/2022/03/img_2383-scaled.jpg',
+description: 'Mannheim Object 7002 image-1',
     },
     {
 preview:
-'../img/img-gallery/preview/preview-object-6.jpg',
+'https://aabaugmbh.de/wp-content/uploads/2022/03/img_2387-2048x1536.jpg',
 original:
-'../img/img-gallery/original/original-object-6.jpg',
-description: 'Object 6',
+'https://aabaugmbh.de/wp-content/uploads/2022/03/img_2387-scaled.jpg',
+description: 'Mannheim Object 7002 image-2',
     },
     {
 preview:
-'../img/img-gallery/preview/preview-object-7.jpg',
+'https://aabaugmbh.de/wp-content/uploads/2022/03/img_2386-2048x1536.jpg',
 original:
-'../img/img-gallery/original/original-object-7.jpg',
-description: 'Object 7',
+'https://aabaugmbh.de/wp-content/uploads/2022/03/img_2386-scaled.jpg',
+description: 'Mannheim Object 7002 image-1',
     },
     {
 preview:
-'../img/img-gallery/preview/preview-object-8.jpg',
+'https://aabaugmbh.de/wp-content/uploads/2022/03/img_2395-2048x1536.jpg',
 original:
-'../img/img-gallery/original/original-object-8.jpg',
-description: 'Object 8',
+'https://aabaugmbh.de/wp-content/uploads/2022/03/img_2395-scaled.jpg',
+description: 'Mannheim Object 7003 image-1',
     },
     {
 preview:
-'../img/img-gallery/preview/preview-object-9.jpg',
+'https://aabaugmbh.de/wp-content/uploads/2022/03/img_2368-2048x1536.jpg',
 original:
-'../img/img-gallery/original/original-object-9.jpg',
-description: 'Object 9',
+'https://aabaugmbh.de/wp-content/uploads/2022/03/img_2368-scaled.jpg',
+description: 'Mannheim Object 4519 image-1',
 },
 ]
 
@@ -84,3 +84,4 @@ const lightbox = new SimpleLightbox('.gallery a', {
 captionsData: 'alt',
 captionDelay: 250,
 });
+
