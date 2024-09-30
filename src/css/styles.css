@@ -19,18 +19,19 @@ ul {
     list-style-type: none;
 }
 
-.navigation, .address-list {
+
+a {
+    text-decoration: none;
+}
+
+.navigation,
+.address-list {
     display: flex;
     gap: 40px;
 }
 
 .address {
     margin-left: auto;
-}
-
-
-a {
-    text-decoration: none;
 }
 
 .logo-header {
@@ -105,14 +106,6 @@ a {
     cursor: pointer;
 }
 
-.h3-vacancy {
-    color:#434455;
-}
-
-.div-vacancy {
-    padding-left: 20px;
-    padding-right: 500px;
-}
 
 .section-about {
     display: flex;

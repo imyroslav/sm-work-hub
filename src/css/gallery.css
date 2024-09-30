@@ -41,7 +41,7 @@ body {
 
 .gallery-item {
     display: flex;
-    width: calc((100% - 8px) / 2);
+    width: calc((100% - 8px) / 3);
 }
 
 @media screen and (min-width: 1024px) {
