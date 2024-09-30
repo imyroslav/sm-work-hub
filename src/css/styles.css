@@ -27,11 +27,11 @@ a {
 .navigation,
 .address-list {
     display: flex;
-    gap: 40px;
+    gap: 5px;
 }
 
 .address {
-    margin-left: auto;
+    margin-left: 0px;
 }
 
 .logo-header {
@@ -45,12 +45,12 @@ a {
     color: white;
 }
 
-.container {
+/* .container {
     width: 100%;
     margin-left: auto;
     margin-right: auto;
     padding: 0 15px;
-}
+} */
 
 .div-header {
     display: flex;
@@ -134,5 +134,15 @@ a {
     border-radius: 10px;
 }
 
+@media screen and (min-width: 1024px) {
 
+    .address-list {
+        gap: 40px;
+    }
+
+    .address {
+        margin-left: auto;
+    }
+    
+}
 
