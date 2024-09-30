@@ -1,7 +1,7 @@
 body {
     font-family: "Roboto", sans-serif;
     color: #434455;
-    background-color: #FFFFFF;
+    background-color: cornsilk;
     font-size: 16px;
     line-height: 1.5;
 }
@@ -28,13 +28,8 @@ ul {
     margin-left: auto;
 }
 
-img {
-    display: block;
-    max-width: 100%;
-}
 
 a {
-    display: block;
     text-decoration: none;
 }
 
@@ -123,7 +118,7 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: cornsilk;
+    margin-bottom: 20px;
 }
 
 .h1-about {
@@ -148,18 +143,13 @@ a {
 
 
 .section-gallery {
-    background-color: cornsilk;
-    padding: 10px 50px 20px 100px;
-}
-
-.div-gallery {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 800px;
-    border-radius: 20px;
     background-color: #434455;
+    padding: 10px 50px 20px 100px;
 }
+
 
 .h1-gallery {
     color: #FFFFFF;

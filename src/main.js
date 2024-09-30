@@ -1,6 +1,7 @@
 import SimpleLightbox from "simplelightbox";
 import "simplelightbox/dist/simple-lightbox.min.css";
 
+
 const images = [
     {
 preview:
@@ -32,6 +33,13 @@ description: 'Mannheim Object 4520 image-2',
     },
     {
 preview:
+'https://aabaugmbh.de/wp-content/uploads/2022/03/img_2371-2048x1536.jpg',
+original:
+'https://aabaugmbh.de/wp-content/uploads/2022/03/img_2371-scaled.jpg',
+description: 'Mannheim Object 4520 image-3',
+    },
+    {
+preview:
 'https://aabaugmbh.de/wp-content/uploads/2022/03/img_2383-2048x1536.jpg',
 original:
 'https://aabaugmbh.de/wp-content/uploads/2022/03/img_2383-scaled.jpg',
@@ -57,6 +65,20 @@ preview:
 original:
 'https://aabaugmbh.de/wp-content/uploads/2022/03/img_2395-scaled.jpg',
 description: 'Mannheim Object 7003 image-1',
+    },
+    {
+preview:
+'https://aabaugmbh.de/wp-content/uploads/2022/03/img_2392-1-2048x1536.jpg',
+original:
+'https://aabaugmbh.de/wp-content/uploads/2022/03/img_2392-1-scaled.jpg',
+description: 'Mannheim Object 7003 image-2',
+    },
+    {
+preview:
+'https://aabaugmbh.de/wp-content/uploads/2022/03/img_2398-2048x1536.jpg',
+original:
+'https://aabaugmbh.de/wp-content/uploads/2022/03/img_2398-scaled.jpg',
+description: 'Mannheim Object 7003 image-3',
     },
     {
 preview:

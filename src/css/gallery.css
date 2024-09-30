@@ -4,15 +4,30 @@ body {
 
 .gallery {
     display: flex;
-    width: 1128px;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
     flex-wrap: wrap;
     column-gap: 24px;
-    row-gap: 48px;
-    margin: 0 auto;
+    row-gap: 24px;
     list-style: none;
+    padding-bottom: 50px;
+    border-radius: 20px;
 }
 
+
+
 .gallery-image {
-    width: 360px;
-    height: 200px;
+    display: flex;
+    width: 100%;
+}
+
+.gallery-link {
+    display: flex;
+    width: 100%;
+}
+
+.gallery-item {
+    display: flex;
+    width: calc((100% - 24px) / 5);
 }
