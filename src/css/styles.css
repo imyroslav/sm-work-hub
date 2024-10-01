@@ -1,15 +1,16 @@
 body {
     font-family: "Roboto", sans-serif;
-    color: #434455;
-    background-color: cornsilk;
     font-size: 16px;
     line-height: 1.5;
+    color: #434455;
+    background-color: cornsilk;
+    margin: 0;
+    padding: 0;
 }
 
 h1, h2, h3, h4, h5, h6 {
     margin-top: 0;
     margin-bottom: 0;
-    color: whitesmoke;
 }
 
 ul {
@@ -24,15 +25,6 @@ a {
     text-decoration: none;
 }
 
-.navigation,
-.address-list {
-    display: flex;
-    gap: 5px;
-}
-
-.address {
-    margin-left: 0px;
-}
 
 .logo-header {
     font-family: "Raleway", san-serif;
@@ -41,22 +33,51 @@ a {
     color: white;
 }
 
+.logo-header:hover {
+    color: #FFCC00;
+}
+
+.navigation {
+    padding: 20px;
+    min-width: 300px;
+}
+
+
+.address {
+    margin-left: 0px;
+    width: 100%;
+}
+
+.address-list {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+
+}
+
+.icon {
+    height: 20px;
+    width: 20px;
+    stroke: #FFCC00;
+    fill: #FFCC00;
+}
+
 .address-link {
+    display: flex;
+    align-items: center;
+    gap: 8px;
     color: white;
 }
 
-/* .container {
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 0 15px;
-} */
+.address-link:hover {
+    color: #FFCC00;
+}
 
 .div-header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #0084ff;
+    background-color: #006666;
 }
 
 .div-hero {
@@ -97,13 +118,17 @@ a {
     font-size: 24px;
 }
 
-.link {
+.vacancy-link {
     margin-top: 100px;
     color: #FFFFFF;
-    background-color: #0084ff;
+    background-color: #006666;
     border: none;
     padding: 10px 20px;
     border-radius: 10px;
+}
+
+.vacancy-link:hover {
+    color: #FFCC00;
 }
 
 .link:hover {
@@ -120,28 +145,33 @@ a {
 }
 
 .h1-about {
-    color: #0470d5;
+    color: #006666;
     font-size: 36px;
     padding-top: 20px;
 }
 
 .p-about {
-    color: #0470d5;
+    color: #006666;
     padding: 10px 50px 20px 100px;
     font-size: 24px;
 }
 
-.btn-about {
+.about-link {
     color: #FFFFFF;
-    background-color: #0470d5;
+    background-color: #006666;
     border: none;
     padding: 15px 25px;
     border-radius: 10px;
 }
 
+.about-link:hover {
+    color: #FFCC00;
+}
+
 @media screen and (min-width: 1024px) {
 
     .address-list {
+        justify-content: flex-end;
         gap: 40px;
     }
 
@@ -151,6 +181,7 @@ a {
 
     .div-header {
         flex-direction: row;
+        justify-content: space-between;
     }
 
     .h1-hero {
