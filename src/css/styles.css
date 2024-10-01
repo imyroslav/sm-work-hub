@@ -153,7 +153,7 @@ a {
 .p-about {
     color: #006666;
     padding: 10px 50px 20px 100px;
-    font-size: 24px;
+    font-size: 12px;
 }
 
 .about-link {
@@ -186,6 +186,11 @@ a {
 
     .h1-hero {
         font-size: 36px;
+    }
+
+
+    .p-about {
+        font-size: 32px;
     }
     
 }
