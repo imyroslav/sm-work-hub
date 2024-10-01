@@ -1,0 +1,19 @@
+.forma-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.forma {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+}
+
+.forma-label {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    color: black;
+}

@@ -1,109 +1,29 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/basiclightbox@5.0.4/dist/basicLightbox.min.css">
-  <title>sm-work-hub</title>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css">
-  <link rel="stylesheet" href="./css/styles.css">
-  <link rel="stylesheet" href="./css/gallery.css" />
-</head>
-<body>
-   <!-- ======== HEADER ========= -->
-  <header class="header">
-      <div class="div-header">
-          <nav class="navigation">
-            <a class="logo-header" href="./index.html">
-              SM  WORK  HUB
-            </a>
-          </nav>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/basiclightbox@5.0.4/dist/basicLightbox.min.css">
+    <title>sm-work-hub</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/gallery.css" />
+  </head>
+  <body>
+  
+    <load src="partials/header.html" />
 
-          <address class="address">
-            <ul class="address-list">
-              <li>
-                <a class="address-link" href="tel:+48574229012">
-                  <svg class="icon">
-                    <use href="./img/symbol-defs.svg#phone">
+    <main>
+      <!-- ====== SECTION HERO ======== -->
+      <load src="partials/hero.html" />
 
-                    </use>
-                  </svg>
-                  +48 574 229 012
-                </a>
-              </li>
-              <li>
-                <a class="address-link" href="mailto:smworkhub@gmail.com">
-                  <svg class="icon">
-                    <use href="./img/symbol-defs.svg#mail"></use>
-                  </svg>
-                  smworkhub@gmail.com                      
-                </a>
-              </li>
-            </ul>
+      <!-- ========= SECTION ABOUT US =========== -->
+      <load src="partials/about.html" />
 
-          </address>
+      <!-- ============= SECTION GALLERY ========== -->
+      <load src="partials/gallery.html" />
 
-      </div>
-  </header>
+    </main>
 
-  <main>
-    <!-- ====== SECTION HERO ======== -->
-    <section class="section-hero">
-      <div class="div-hero">
-        <h1 class="h1-hero">
-          ОФИЦИАЛЬНАЯ РАБОТА В ЕВРОПЕ
-        </h1>
-        <h3 class="h3-hero">
-          ВАКАНСИИ ДЛЯ ГРАЖДАН УКРАИНЫ, БЕЛОРУССИИ, СТРАН ЕВРОПЫ И СРЕДНЕЙ АЗИИ
-        </h3>
-        <a class="vacancy-link" href="./vacancy.html">
-          АКТУАЛЬНЫЕ ВАКАНСИИ
-        </a>
-      </div>
-    </section>
-
-    <!-- ========= SECTION ABOUT US =========== -->
-    <section class="section-about">
-
-      <h1 class="h1-about">SM WORK HUB</h1>
-      <p class="p-about">Наша фирма была основана в Познани коллективом единомышленников, уже имеющих опыт организации строительного бизнеса и
-      желающих вывести предоставление строительных услуг европейским заказчикам на более высокий уровень.
-      
-      Размещение офиса SM WORK HUB в Польше – это логистическое преимущество найма квалифицированных рабочих из Украины,
-      Беларуси, Литвы, Латвии и Средней Азии для делегирования их на строительные объекты в странах Западной Европы.
-      
-      Наши сотрудники зарекомендовали себя на строительном рынке Германии и других стран как ответственные и добросовестные
-      специалисты, работающие на результат.
-      
-      Менеджеры компании активно работают в двух направлениях:
-      • коммуникация и обслуживание действующих контрактов с европейскими партнерами;
-      • активный поиск новых кадров: пополнение штата опытными специалистами разных строительных направлений, желающими
-      развиваться на профессиональном поприще и получать стабильный доход европейского уровня.
-      
-      Мы всегда открыты для новых предложений и рады рассмотреть Вашу кандидатуру на собеседовании. Для этого заполните анкету
-      или свяжитесь с нами.</p>
-
-      <a class="about-link">ЗАПОЛНИТЬ АНКЕТУ </a>
-
-
-    </section>
-
-    <!-- ============= SECTION GALLERY ========== -->
-    <section class="section-gallery">
-
-      <h1 class="h1-gallery">НАШИ ОБЪЕКТЫ</h1>
-        
-      <script type="module" src="./main.js"></script>
-        
-      <ul class="gallery"></ul>
-
-    </section>
-
-    
-
-  </main>
-
-
-
-</body>
+  </body>
 </html>
