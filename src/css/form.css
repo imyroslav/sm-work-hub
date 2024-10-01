@@ -1,11 +1,12 @@
 .forma-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+   position: relative;
 }
 
 
 .forma {
+    position: absolute;
+    bottom: o;
+    right: 40%;
     display: flex;
     flex-direction: column;
     width: 20%;
