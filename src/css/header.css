@@ -4,6 +4,7 @@
     font-size: 24px;
     color: white;
     margin: 0 auto;
+    white-space: nowrap;
 }
 
 .logo-header:hover {
@@ -12,7 +13,7 @@
 
 .navigation {
     padding: 20px;
-    min-width: 300px;
+
 }
 
 
