@@ -6,7 +6,7 @@
     padding: 20px;
     display: flex;
     flex-direction: column;
-    width: 20%;
+    width: 90%;
     gap: 20px;
     background-color: #FFFFFF;
     border: 4px solid rgb(0, 102, 102);
@@ -32,4 +32,12 @@
 .forma-btn {
     margin-top: 20px;
     font-size: 24px;
+}
+
+@media screen and (min-width:1024px) {
+
+    .forma {
+        width: 20%;
+    }
+    
 }
