@@ -17,6 +17,7 @@
   "author": "Myroslav Ivanov <imyroslav@ukr.net>",
   "license": "ISC",
   "dependencies": {
+    "@emailjs/browser": "^4.4.1",
     "simplelightbox": "^2.14.3",
     "vite-plugin-full-reload": "^1.2.0",
     "vite-plugin-html-inject": "^1.1.2"
