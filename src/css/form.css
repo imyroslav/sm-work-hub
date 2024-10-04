@@ -25,10 +25,11 @@
 
 .forma-label {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: flex-start;
     color: black;
     font-size: 24px;
+    white-space: nowrap;
 }
 
 .forma-input {
