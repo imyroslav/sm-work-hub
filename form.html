@@ -27,7 +27,7 @@
         });
     }
 </script>
-  <link rel="stylesheet" crossorigin href="/sm-work-hub/assets/styles-BLvWlGTj.css">
+  <link rel="stylesheet" crossorigin href="/sm-work-hub/assets/styles-CLDmj__n.css">
 </head>
 <body>
 
@@ -72,25 +72,29 @@
         <div class="forma-container">
             <form class="forma" id="contact-form">
             
-                <label class="forma-label">
-                    Имя
-                    <input type="text" name="firstname" class="forma-input" maxlength="15" required>
+                <label for="firstname" class="forma-label">
+                    Имя<span style="color: red;">*</span>
                 </label>
+                <input type="text" name="firstname" id="firstname" class="forma-input" maxlength="15" required>
+                
             
-                <label class="forma-label">
+                <label for="surname" class="forma-label">
                     Фамилия
-                    <input type="text" name="surname" class="forma-input" maxlength="20">
                 </label>
+                <input type="text" name="surname" id="surname" class="forma-input" maxlength="20">
+                
             
-                <label class="forma-label">
-                    Телефон
-                    <input type="tel" name="telefone" class="forma-input" maxlength="15" placeholder="+1234567890">
+                <label for="telefone" class="forma-label">
+                    Телефон<span style="color: red;">*</span>
                 </label>
+                <input type="tel" name="telefone" id="telefone" class="forma-input" maxlength="15" placeholder="+1234567890">
+                
             
-                <label class="forma-label">
+                <label for="emailaddress" class="forma-label">
                     E-mail
-                    <input type="email" name="emailaddress" class="forma-input" maxlength="25">
                 </label>
+                    <input type="email" name="emailaddress" id="emailaddress" class="forma-input" maxlength="25">
+                
                 
                 <input class="forma-btn" type="submit" value="Отправить">
 
